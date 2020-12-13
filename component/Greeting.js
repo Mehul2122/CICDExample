@@ -17,7 +17,7 @@ export default class Greeting  extends Component{
     return(
           <View style={styles.container}>
 
-              <Text>Welcome To CICD App {this.state.name} </Text>
+              <Text>Welcome To App {this.state.name} </Text>
 
               <TextInput 
                 style={styles.textinputStyle}
